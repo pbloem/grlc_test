@@ -8,5 +8,5 @@ PREFIX dbr: <http://dbpedia.org/resource/>
 
 SELECT DISTINCT ?s 
 WHERE { 
-	?s dbo:musicalArtist ?_band 
+	?s dbo:musicalArtist ?_band_iri
 }
